@@ -1,0 +1,41 @@
+p{
+    text-align: center;
+}
+#mypara{
+    text-align: left;
+}
+.center-paragraphy{
+    text-align: center;
+}
+#{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+h2{
+    text-align: right;
+    color: red;
+}
+div p {
+    background-color: yellow;
+}
+div > p{
+    background-color: crimson;
+}
+div + p {
+    background-color: pink;
+}
+div ~ p{
+    text-align: center;
+}
+div ~p:hover{
+    background-color: yellow;
+}
+div ~p::first-line{
+    background-color: red;
+}
+a[target]{
+    background-color: green;
+}
